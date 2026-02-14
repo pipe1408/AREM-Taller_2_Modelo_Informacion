@@ -13,6 +13,22 @@ _Indique la fecha de la clase en que se trabajó este taller._
 Describa brevemente qué se hizo durante la sesión:
 
 - ¿Qué se discutió con el equipo?
+
+se discutió cómo transformar el proceso BPMN de agendamiento de citas médicas en un modelo de datos estructurado utilizando el modelo Entidad–Relación (ERD).
+
+El equipo analizó cuáles eran los elementos del proceso que debían convertirse en entidades persistentes dentro de una base de datos. Se identificó que no todas las actividades del BPMN se traducen en entidades, sino únicamente aquellos elementos que requieren almacenamiento de información.
+
+Se discutieron principalmente:
+
+· Qué entidades principales intervienen en el sistema.
+
+· Qué atributos debería tener cada entidad.
+
+· Qué relaciones existen entre ellas.
+
+· Las cardinalidades entre entidades.
+
+Si era necesaria una entidad intermedia para resolver relaciones muchos a muchos.
 - ¿Qué decisiones de modelado se tomaron?
 - ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
 - ¿Qué parte del trabajo se alcanzó a desarrollar?
