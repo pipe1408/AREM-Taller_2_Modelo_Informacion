@@ -59,14 +59,57 @@ Cada entidad fue definida con una clave primaria (PK) única, y se establecieron
 
 ## 🧩 Análisis del modelo propuesto
 
+### 3.1 Estructura del modelo
+
+El modelo se estructuró con entidades centrales como **Ruta** y **Estudiante**, ya que representan el núcleo operativo del sistema.
+
+La entidad **Registro_Ubicacion** permite almacenar información dinámica del GPS, mientras que la entidad **Notificación** representa los eventos de comunicación enviados a los acudientes.
+
+El modelo respeta principios básicos de diseño:
+
+- Separación clara de entidades.
+- Definición de claves primarias.
+- Uso adecuado de claves foráneas.
+- Relaciones con cardinalidades definidas.
+- Reducción de redundancia de información.
+
+### 3.2 Representación de las necesidades del sistema
+
+El modelo permite:
+
+- Registrar estudiantes y sus acudientes.
+- Asignar estudiantes a rutas.
+- Asociar rutas con conductor y vehículo.
+- Almacenar historial de ubicaciones GPS.
+- Registrar notificaciones enviadas.
+
+De esta manera, el ERD soporta adecuadamente las funcionalidades principales de la aplicación.
+
+### 3.3 Limitaciones identificadas
+
+El modelo inicial no incluye:
+
+- Gestión de autenticación de usuarios.
+- Historial de cambios de ruta.
+- Manejo de múltiples conductores por ruta en distintos turnos.
+- Control avanzado de permisos.
+
+Estas extensiones podrían incorporarse en una versión futura del modelo.
+
 ## 📈 Diagrama final entregado
 > (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
-| Nombre del elemento | Tipo | Descripción | Responsable |
-|---------------------|------|-------------|-------------|
-| Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
+| Nombre del elemento   | Tipo     | Descripción                                                   | Responsable |
+|-----------------------|----------|---------------------------------------------------------------|-------------|
+| Estudiante            | Entidad  | Alumno que utiliza el servicio de transporte escolar         | Sistema     |
+| Acudiente             | Entidad  | Persona responsable que monitorea al estudiante              | Usuario     |
+| Ruta                  | Entidad  | Recorrido asignado al transporte escolar                     | Empresa     |
+| Conductor             | Entidad  | Responsable de operar el vehículo en la ruta                 | Empresa     |
+| Vehículo              | Entidad  | Medio de transporte asignado a una ruta                      | Empresa     |
+| Registro_Ubicacion    | Entidad  | Historial de coordenadas GPS registradas en tiempo real      | Sistema     |
+| Notificación          | Entidad  | Registro de mensajes enviados al acudiente                   | Sistema     |
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:
