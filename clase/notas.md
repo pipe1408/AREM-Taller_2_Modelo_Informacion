@@ -1,12 +1,12 @@
-# 🗒️ Registro de Trabajo en Clase - Taller X
+# 🗒️ Registro de Trabajo en Clase - Taller 2: Modelo de Información y Diagrama de Contexto
 
 ## 📆 Fecha de la sesión
-_Indique la fecha de la clase en que se trabajó este taller._
+_14 de febrero de 2026_
 
 ## 👥 Integrantes presentes
-- Nombre 1
-- Nombre 2
-- Nombre 3
+- Tomás Ariza
+- Felipe Ballesteros
+- Andrés Beltrán
 
 ## 🧠 Actividades realizadas en clase
 
@@ -30,12 +30,15 @@ Se discutieron principalmente:
 
 Si era necesaria una entidad intermedia para resolver relaciones muchos a muchos.
 - ¿Qué decisiones de modelado se tomaron?
-- ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
+  - Las entidades cita y factura se modelarían como entidades débiles
+  - Todas las entidades contendrían de forma clara sus atributos
+- ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah
+  - draw.io
 - ¿Qué parte del trabajo se alcanzó a desarrollar?
-
+  - Modelo ER parcial de la clínica, principalmente con las relaciones entre entidades definidas, pero sin los atributos completos para cada entidad. 
 ## 🧩 Boceto inicial del modelo
 
-> (Puede insertar aquí una imagen del boceto, una captura de pantalla o un diagrama preliminar si ya fue hecho en digital)
+![](modelo-er-borrador.jpg)
 
 ## 🔁 Tareas definidas para complementar el taller
 
@@ -43,10 +46,10 @@ Anote las responsabilidades acordadas entre los miembros del equipo para complet
 
 | Tarea asignada | Responsable | Fecha estimada |
 |----------------|-------------|----------------|
-| Modelado final en draw.io | Nombre 1 | 10/08 |
-| Redacción del informe     | Nombre 2 | 11/08 |
-| Investigación y referencias | Nombre 3 | 12/08 |
+| Modelado e informe final clínica | Felipe Ballesteros | 20/02 |
+| Redacción del informe cliente     | Tomás Ariza | 20/02 |
+| Modelado final caso cliente | Andrés Beltrán | 20/02 |
 
 ---
 
-_Este documento resume el trabajo colaborativo realizado durante la sesión del taller X en el curso AREM - Universidad de La Sabana._
+_Este documento resume el trabajo colaborativo realizado durante la sesión del taller 2 en el curso AREM - Universidad de La Sabana._
