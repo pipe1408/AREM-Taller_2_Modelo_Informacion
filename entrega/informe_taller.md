@@ -97,7 +97,9 @@ El modelo inicial no incluye:
 Estas extensiones podrían incorporarse en una versión futura del modelo.
 
 ## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
+<img width="795" height="582" alt="{2C4600E9-B451-46D1-BBAC-DDA87868501B}" src="https://github.com/user-attachments/assets/3211b87c-f5f9-452f-ad22-79951882048d" />
+
+
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
