@@ -1,12 +1,12 @@
 # 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
-_Taller X - [Nombre completo del taller]_
+_Taller 2: Modelo de Información y Diagrama de Contexto_
 
 ## 👥 Integrantes del equipo
-- Nombre 1 (correo o usuario GitHub)
-- Nombre 2
-- Nombre 3
+- Tomás Ariza
+- Felipe Ballesteros
+- Andrés Beltrán
 
 ## 🧠 Descripción general del trabajo
 El presente informe tiene como objetivo diseñar un modelo Entidad–Relación (ERD) que represente la estructura de datos necesaria para el funcionamiento de la aplicación **BO-TECH TRACKING**, una plataforma orientada al monitoreo y rastreo en tiempo real de transporte escolar.
